@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Mono&display=swap');
 
+/* General CSS */
 * {
     font-family: 'Arvo', serif;
     font-family: 'Roboto Mono', monospace;
@@ -11,8 +12,11 @@
 html {
     height: 100vh;
     font-size: 22px;
+    background-color: #fafafa;
 }           
 
+
+/* Navbar CSS */
 li {
     list-style: none;
 }
@@ -22,11 +26,55 @@ a {
     color: #222232;
 }
 
+h4 {
+    color: #507cdb;
+}
+
 .nav-center {
+    background-color: #f0f0f0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
+    height: 80px;
     width: 100%;
+    box-shadow: 5px 10px 15px #12121215;
+    z-index: 1;
+}
+
+/* Main CSS */
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 16px;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+}
+
+h2 {
+    width: 80vw;
+    background-color: #222222;
+    color: #f7f7f7;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.btn {
+    margin: 20px;
+    width: 70vw;
+    height: 50px;
+    font-size: 22px;
+    background-color:#121212c0 ;
+    color: #ffffff;
+    border: solid #121212 3px;
+    border-radius: 15px;
 }
