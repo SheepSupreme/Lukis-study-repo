@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Mono&display=swap');
+
+/* General CSS */
+* {
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    font-size: 22px;
+}
+
+.button_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.button_container button {
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+}
