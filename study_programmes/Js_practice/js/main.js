@@ -1,4 +1,7 @@
-var b = "smoothie";
-console.log(b);
+let ul = document.querySelector('ul');
+const div = document.querySelector('div');
 
-document.getElementById("btn").innerHTML="HI";
+console.log(div.childNodes);
+
+console.log(ul.previousElementSibling);
+console.log(ul.nextSibling);

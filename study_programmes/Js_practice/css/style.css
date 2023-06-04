@@ -11,19 +11,9 @@
 
 html {
     height: 100vh;
-    font-size: 22px;
+    font-size: 18px;
 }
 
-.button_container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-}
-
-.button_container button {
-    height: 50px;
-    width: 180px;
-    font-size: 20px;
+#main-heading {
+    font-size: 34px;
 }
