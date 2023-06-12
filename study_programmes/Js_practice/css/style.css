@@ -14,6 +14,30 @@ html {
     font-size: 18px;
 }
 
-#main-heading {
-    font-size: 34px;
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 20px;
+    width: 10rem;
+    height: 3rem;
+    align-self: center;
+}
+
+button {
+    font-size: 28px;
+}
+
+.text {
+    opacity: 0;
+    margin: 50px;
+    transition: opacity .5s cubic-bezier(0.22, 0.61, 0.36, 1)
+}
+
+.text.reveal {
+    display: block;
+    opacity: 1;
 }
