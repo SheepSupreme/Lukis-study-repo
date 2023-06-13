@@ -75,3 +75,5 @@ function alertBtn() {
 }
 button.addEventListener("click",alertBtn);
 
+
+// Event probagation

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+body {
+    min-height: 100%;
+    background-color: #fff;
+} 
+
+.mobile-block {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mobile-block_text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 991px){
+    .mobile-block {
+        display: none;
+    }
+}

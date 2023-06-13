@@ -1,0 +1,23 @@
+/*
+   Project Name: calendar
+   Description: plain javascript calendar
+   Author: Lukas Gregor
+   Created: 13.06.2023
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Mono&display=swap');
+
+
+@import "/css/basic.css"; /* Basic Styles */
+@import "/css/navbar.css"; /* Typography */
+@import "/css/calendar.css"; /* Layout */
+/* Component Styles */
+/* Utility Classes */
+/* Custom Styles */
+
+:root {
+   --blue: #77bce4ff;
+   --light-1: #e7dfc5ff;
+   --light-2: #e9f1f7ff;
+   --dark: #131b23ff;
+}
