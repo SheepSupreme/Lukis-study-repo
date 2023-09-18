@@ -1,0 +1,4 @@
+/* When a Element is relative it disconnects from its parent and therefore
+does not inherit the parents dimensions
+If its position is absolute it now inherits the dimensions from
+the document */

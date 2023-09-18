@@ -11,7 +11,7 @@ console.log(title);
 
 // getElementByClassName()
 
-let listItem = document.getElementsByClassName('list-items')
+let listItem = document.getElementsByClassName('list-items');
 console.log(listItem);
 
 
@@ -68,3 +68,12 @@ console.log(ul.previousElementSibling);
 console.log(ul.nextSibling);
 
 // Event-Listeners
+// element.addEventListner("click",function);
+const button = document.querySelector('.btn');
+function alertBtn() {
+    alert('I love JavaScript');
+}
+button.addEventListener("click",alertBtn);
+
+
+// Event probagation
